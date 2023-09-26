@@ -28,7 +28,7 @@ print("---")
 # | Name                | Value |
 # | ------------------- | ----- |
 # | my_favourite_number | 99    |
-#
+# S
 # We can refer to things in the state of the program by
 # name.
 #

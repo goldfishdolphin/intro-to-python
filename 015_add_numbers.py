@@ -13,27 +13,30 @@ from lib.helpers import check_that_these_are_equal
 # YOUR FUNCTION GOES BELOW THIS LINE
 
 
+def add_numbers(num1, num2):
+    return (num1+num2)
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
 
 # @TASK: Check your work by running:
 
-#   python 015_add_numbers.py
+#   python3 015_add_numbers.py
 
 # Below is a test for your function.
+
 
 print("add_numbers(2, 3) is:")
 
 check_that_these_are_equal(
-  add_numbers(2, 3),
-  5
+    add_numbers(2, 3),
+    5
 )
 
 print("add_numbers(3, 5) is:")
 
 check_that_these_are_equal(
-  add_numbers(3, 5),
-  8
+    add_numbers(3, 5),
+    8
 )
 
 # When you're done, move on to 016_operators.py
